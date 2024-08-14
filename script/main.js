@@ -1,4 +1,8 @@
 // Import the data to customize and insert them into page
+const song = document.getElementById('song');
+window.addEventListener('load', () => {
+  song.play();
+});
 document.body.addEventListener('click', () => {
   song.play();
 });
